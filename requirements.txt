@@ -1,0 +1,4 @@
+streamlit
+google-generativeai
+databricks-sql-connector
+pandas
