@@ -61,7 +61,7 @@ try:
 except KeyError:
     DB_TOKEN = ""
 
-DB_SCHEMA = "workspace.droove_dev"
+DB_SCHEMA = "workspace.viny_dev"
 
 # --- INICIALIZAR SESSION STATE ---
 if "catalog" not in st.session_state:
@@ -153,7 +153,7 @@ def ask_retailx_agent(pergunta, model_name, api_key, schema_context):
         
         Regras IMPORTANTES:
         1. Retorne APENAS o código SQL puro, sem explicações, sem blocos de código markdown (```sql).
-        2. Use sempre o nome completo das tabelas (ex: workspace.droove_dev.gold_vendas_por_categoria).
+        2. Use sempre o nome completo das tabelas (ex: workspace.viny_dev.gold_vendas_por_categoria).
         3. Se a pergunta não puder ser respondida com as tabelas acima, retorne "ERRO: Tabelas não encontradas".
         4. Prefira usar tabelas de camadas mais detalhadas (silver, fact) quando disponível.
         
