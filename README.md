@@ -1,6 +1,6 @@
 # RetailX AI Assistant 🤖
 
-Este é um assistente de análise de dados inteligente desenvolvido com Streamlit, Google Gemini e Databricks.
+Este é um assistente de análise de dados inteligente desenvolvido e depois executado em um ambiente Streamlit, Google Gemini e Databricks.
 
 ## 🚀 Como executar a aplicação
 
@@ -26,4 +26,7 @@ Este é um assistente de análise de dados inteligente desenvolvido com Streamli
 As credenciais fornecidas foram configuradas como padrões (default) no código para facilitar o MVP, mas podem ser alteradas diretamente na interface da aplicação.
 
 ---
-Desenvolvido para RetailX.
+Desenvolvido por Carlos Passos.
+www.linkedin.com/in/carlos-passos-py
+
+
